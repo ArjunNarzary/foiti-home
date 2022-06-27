@@ -6,18 +6,17 @@ import { COLORS } from "../resources/theme";
 export const Footer = () => {
   return (
     <div className="flex flex-col justify-center pb-[4rem]">
-      <a href="/">
+      <a href="/" className="w-[6rem] my-0 mx-auto">
         <img
           src="/images/foiti-round.png"
           height={100}
           width={100}
           objectFit="contain"
-          className="my-0 mx-auto"
         />
       </a>
       <h1
         style={{ color: COLORS.foitiGrey }}
-        className="text-center font-bold text-3xl"
+        className="text-center font-bold text-3xl mb-8"
       >
         #ExploreWithFoiti
       </h1>
