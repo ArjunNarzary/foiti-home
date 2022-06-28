@@ -21,12 +21,13 @@ const TermOfUse = () => {
       </Head>
       <main>
         <div className="py-12 px-6">
-          <h1 className="font-bold mt-5 mb-10 text-2xl">Terms of Use</h1>
+          <h1 className="font-bold mt-10 mb-4">Welcome to Foiti!</h1>
           <p>
-            These Terms of Use (or "Terms") govern your use of Foiti and when
-            you create an Foiti account or use any of our other products or
-            services that are subject to these Terms (which we refer to
-            collectively as the “Services”), you agree to the Terms.
+            These Terms of Use (or &quot;Terms&quot;) govern your use of Foiti
+            and when you create an Foiti account or use any of our other
+            products or services that are subject to these Terms (which we refer
+            to collectively as the &quot;Services&quot;), you agree to the
+            Terms.
           </p>
           <h1 className="font-bold mt-10 mb-4">Who Can Use the Services</h1>
           <p>
@@ -54,14 +55,15 @@ const TermOfUse = () => {
             As between you and us, Foiti (and its licensors) is the owner of the
             Services, including all proprietary content, information, material,
             software, images, text, graphics, illustrations, logos, trademarks,
-            service marks, copyrights, photographs, and “look and feel” of the
-            Services, and all related intellectual property rights. Foiti grants
-            you a worldwide, royalty-free, non-assignable, non-exclusive,
-            revocable, and non-sublicensable license to use the Services. This
-            license is for the sole purpose of using and enjoying the Services
-            in a way that these Terms and our policies, such as our Community
-            Guidelines allow. You may not use the Services in ways that are not
-            authorized by these Terms. Nor may you help anyone else in doing so.
+            service marks, copyrights, photographs, and &quot;look and
+            feel&quot; of the Services, and all related intellectual property
+            rights. Foiti grants you a worldwide, royalty-free, non-assignable,
+            non-exclusive, revocable, and non-sublicensable license to use the
+            Services. This license is for the sole purpose of using and enjoying
+            the Services in a way that these Terms and our policies, such as our
+            Community Guidelines allow. You may not use the Services in ways
+            that are not authorized by these Terms. Nor may you help anyone else
+            in doing so.
           </p>
           <h1 className="font-bold mt-10 mb-4">Rights You Grant Us</h1>
           <p>
@@ -89,7 +91,7 @@ const TermOfUse = () => {
           <p>
             If you select a username or similar identifier for your account, we
             may change it if we believe it is appropriate or necessary (for
-            example, if it infringes someone's intellectual property or
+            example, if it infringes someone&apos;s intellectual property or
             impersonates another user).
           </p>
           <br></br>
@@ -107,7 +109,6 @@ const TermOfUse = () => {
             based on such feedback or suggestions.
           </p>
           <h1 className="font-bold mt-10 mb-4">
-            {" "}
             Additional Terms for Specific Services
           </h1>
           <p>
@@ -121,14 +122,13 @@ const TermOfUse = () => {
           <h1 className="font-bold mt-10 mb-4"> Privacy</h1>
           <p>
             Your privacy matters to us. You can learn how your information is
-            handled when you use our Services by reading our{" "}
-            <Link href="/privacy">
+            handled when you use our Services by reading our
+            <Link href="/privacy-policy">
               <a className="text-blue-600"> Privacy Policy</a>
             </Link>
             .
           </p>
           <h1 className="font-bold mt-10 mb-4">
-            {" "}
             Content removal and disabling or terminating your account
           </h1>
           <p>
@@ -139,23 +139,23 @@ const TermOfUse = () => {
             all or part of the Service to you immediately to protect our
             community or services, or if you create risk or legal exposure for
             us, violate these Terms of Use or our policies (including our
-            Community Guidelines), if you repeatedly infringe other people's
-            intellectual property rights, or where we are permitted or required
-            to do so by law. We can also terminate or change the Service, remove
-            or block content or information shared on our Service, or stop
-            providing all or part of the Service if we determine that doing so
-            is reasonably necessary to avoid or mitigate adverse legal or
-            regulatory impacts on us. If you believe that your account has been
-            terminated in error, or you want to disable or permanently delete
-            your account, consult our Help Centre. When you request to delete
-            content or your account, the deletion process will automatically
-            begin no more than 30 days after your request. It may take up to 90
-            days to delete content after the deletion process begins. While the
-            deletion process for such content is being undertaken, the content
-            is no longer visible to other users, but remains subject to these
-            Terms of Use and our Data Policy. After the content is deleted, it
-            may take us up to another 90 days to remove it from backups and
-            disaster recovery systems.
+            Community Guidelines), if you repeatedly infringe other
+            people&apos;s intellectual property rights, or where we are
+            permitted or required to do so by law. We can also terminate or
+            change the Service, remove or block content or information shared on
+            our Service, or stop providing all or part of the Service if we
+            determine that doing so is reasonably necessary to avoid or mitigate
+            adverse legal or regulatory impacts on us. If you believe that your
+            account has been terminated in error, or you want to disable or
+            permanently delete your account, consult our Help Centre. When you
+            request to delete content or your account, the deletion process will
+            automatically begin no more than 30 days after your request. It may
+            take up to 90 days to delete content after the deletion process
+            begins. While the deletion process for such content is being
+            undertaken, the content is no longer visible to other users, but
+            remains subject to these Terms of Use and our Data Policy. After the
+            content is deleted, it may take us up to another 90 days to remove
+            it from backups and disaster recovery systems.
           </p>
           <br></br>
           <p>
@@ -172,7 +172,7 @@ const TermOfUse = () => {
             <li>
               where deletion within 90 days is not possible due to technical
               limitations of our systems, in which case, we will complete the
-              deletion as soon as technically feasible; or{" "}
+              deletion as soon as technically feasible; or
             </li>
             <li>
               where deletion would restrict our ability to:
@@ -208,18 +208,20 @@ const TermOfUse = () => {
             terminate as an agreement between you and us, but this will still
             apply even after your account is terminated, disabled or deleted.
           </p>
-          <h1 className="font-bold mt-10 mb-4"> Respecting Others' Rights</h1>
+          <h1 className="font-bold mt-10 mb-4">
+            Respecting Others&apos; Rights
+          </h1>
           <p>
             Foiti respects the rights of others. And so should you. You
             therefore may not use the Services, or enable anyone else to use the
-            Services, in a manner that violates or infringes someone else’s
+            Services, in a manner that violates or infringes someone else&apos;s
             rights of publicity, privacy, copyright, trademark, or other
             intellectual property right. When you submit content to the Service,
             you agree and represent that you own that content, or that you have
             received all necessary permissions, clearances, and authorizations
             in order to submit it to the Service and grant the rights and
             licenses contained in these Terms for your content. You also agree
-            that you will not use or attempt to use another user’s account
+            that you will not use or attempt to use another user&apos;s account
             except as permitted by Foiti or its affiliates.
           </p>
           <br></br>
@@ -228,19 +230,19 @@ const TermOfUse = () => {
             expeditiously remove from our Services any infringing material that
             we become aware of. If Foiti becomes aware that a user has
             repeatedly infringed copyrights, we will take reasonable steps
-            within our power to terminate the user’s account. If you believe
-            that anything on the Services infringes a copyright that you own or
-            control, please report it using our in-app reporting feature.
+            within our power to terminate the user&apos;s account. If you
+            believe that anything on the Services infringes a copyright that you
+            own or control, please report it using our in-app reporting feature.
           </p>
           <h1 className="font-bold mt-10 mb-4">
             {" "}
-            Respecting the Services and Foiti’s Rights
+            Respecting the Services and Foiti&apos;s Rights
           </h1>
           <p>
-            You must respect Foiti’s rights and adhere to any other guidelines,
-            support pages, or FAQs published by Foiti or our affiliates. That
-            means, among other things, you may not do, attempt to do, enable, or
-            encourage anyone else to do, any of the following:
+            You must respect Foiti&apos;s rights and adhere to any other
+            guidelines, support pages, or FAQs published by Foiti or our
+            affiliates. That means, among other things, you may not do, attempt
+            to do, enable, or encourage anyone else to do, any of the following:
           </p>
           <br></br>
           <ul>
@@ -250,8 +252,8 @@ const TermOfUse = () => {
               Services, except as explicitly allowed by these Terms.
             </li>
             <li>
-              violate or infringe Foiti’s or our affiliates’ copyrights,
-              trademarks, or other intellectual property rights;
+              violate or infringe Foiti&apos;s or our affiliates&apos;
+              copyrights, trademarks, or other intellectual property rights;
             </li>
             <li>
               copy, modify, archive, download, upload, disclose, distribute,
@@ -260,7 +262,7 @@ const TermOfUse = () => {
               the Services, other than temporary files that are automatically
               cached by your web browser for display purposes, as otherwise
               expressly permitted in these Terms, as otherwise expressly
-              permitted by us in writing, or as enabled by the Service’s
+              permitted by us in writing, or as enabled by the Service&apos;s
               intended functionality;
             </li>
             <li>
@@ -277,12 +279,12 @@ const TermOfUse = () => {
             </li>
             <li>
               use any robot, spider, crawler, scraper, or other automated means
-              or interface to access the Services or extract other users’
+              or interface to access the Services or extract other users&apos;
               information;
             </li>
             <li>
               use or develop any third-party applications that interact with the
-              Services or other users’ content or information without our
+              Services or other users&apos; content or information without our
               written consent;
             </li>
             <li>
@@ -316,10 +318,11 @@ const TermOfUse = () => {
           <h1 className="font-bold mt-10 mb-4"> Safety</h1>
           <p>
             We try hard to keep our Services a safe place for all users. But we
-            can’t guarantee it. That’s where you come in. By using the Services,
-            you agree that you will at all times comply with these Terms,
-            including our Community Guidelines and any other policies Foiti
-            makes available in order to maintain the safety of the Services.
+            can&apos;t guarantee it. That&apos;s where you come in. By using the
+            Services, you agree that you will at all times comply with these
+            Terms, including our Community Guidelines and any other policies
+            Foiti makes available in order to maintain the safety of the
+            Services.
           </p>
           <br></br>
           <ul>
@@ -338,8 +341,8 @@ const TermOfUse = () => {
               We also care about your physical safety while using our Services.
               So do not use our Services in a way that would distract you from
               obeying traffic or safety laws. For example, never use the
-              Services while driving. And never put yourself or others in harm’s
-              way just to capture a Foiti.
+              Services while driving. And never put yourself or others in
+              harm&apos;s way just to capture a Foiti.
             </li>
           </ul>
           <h1 className="font-bold mt-10 mb-4"> Your Account</h1>
@@ -347,27 +350,26 @@ const TermOfUse = () => {
             To use certain Services, you need to create an account. You agree to
             provide us with accurate, complete, and updated information for your
             account. You are responsible for any activity that occurs in your
-            account. So, it’s important that you keep your account secure. One
-            way to do that is to select a strong password that you don’t use for
-            any other account. If you think that someone has gained access to
-            your account, please immediately reach out to Help Center. Any
-            software that we provide you may automatically download and install
-            upgrades, updates, or other new features. You may be able to adjust
-            these automatic downloads through your device’s settings. You agree
-            not to create any account if we have previously removed or banned
-            you or your account from any of our Services, unless we consent
-            otherwise.
+            account. So, it&apos;s important that you keep your account secure.
+            One way to do that is to select a strong password that you
+            don&apos;t use for any other account. If you think that someone has
+            gained access to your account, please immediately reach out to Help
+            Center. Any software that we provide you may automatically download
+            and install upgrades, updates, or other new features. You may be
+            able to adjust these automatic downloads through your device&apos;s
+            settings. You agree not to create any account if we have previously
+            removed or banned you or your account from any of our Services,
+            unless we consent otherwise.
           </p>
           <h1 className="font-bold mt-10 mb-4">
-            {" "}
             Data Charges and Mobile Phones
           </h1>
           <p>
             You are responsible for any mobile charges that you may incur for
             using our Services, including text-messaging (such as SMS, MMS, or
-            future such protocols or technologies) and data charges. If you’re
-            unsure what those charges may be, you should ask your service
-            provider before using the Services.
+            future such protocols or technologies) and data charges. If
+            you&apos;re unsure what those charges may be, you should ask your
+            service provider before using the Services.
           </p>
           <br></br>
           <p>
@@ -386,31 +388,31 @@ const TermOfUse = () => {
           <p>
             Certain Services may display, include or make available content,
             data, information, applications, features or materials from third
-            parties (“Third-Party Materials”), or provide links to certain
-            third-party websites. If you use any Third-Party Materials made
-            available through our Services (including Services we jointly offer
-            with the third party), each party’s terms will govern the respective
-            party’s relationship with you. Neither Foiti nor our affiliates are
-            responsible or liable for a third party’s terms or actions taken
-            under the third party’s terms. Further, by using the Services, you
-            acknowledge and agree that Foiti is not responsible for examining or
-            evaluating the content, accuracy, completeness, availability,
-            timeliness, validity, copyright compliance, legality, decency,
-            quality or any other aspect of such Third-Party Materials or
-            websites. We do not warrant or endorse and do not assume and will
-            not have any liability or responsibility to you or any other person
-            for any third-party services, Third-Party Materials or third-party
-            websites, or for any other materials, products, or services of third
-            parties. Third-Party Materials and links to other websites are
-            provided solely as a convenience to you.
+            parties (&quot;Third-Party Materials&quot;), or provide links to
+            certain third-party websites. If you use any Third-Party Materials
+            made available through our Services (including Services we jointly
+            offer with the third party), each party&apos;s terms will govern the
+            respective party&apos;s relationship with you. Neither Foiti nor our
+            affiliates are responsible or liable for a third party&apos;s terms
+            or actions taken under the third party&apos;s terms. Further, by
+            using the Services, you acknowledge and agree that Foiti is not
+            responsible for examining or evaluating the content, accuracy,
+            completeness, availability, timeliness, validity, copyright
+            compliance, legality, decency, quality or any other aspect of such
+            Third-Party Materials or websites. We do not warrant or endorse and
+            do not assume and will not have any liability or responsibility to
+            you or any other person for any third-party services, Third-Party
+            Materials or third-party websites, or for any other materials,
+            products, or services of third parties. Third-Party Materials and
+            links to other websites are provided solely as a convenience to you.
           </p>
           <h1 className="font-bold mt-10 mb-4">
             {" "}
             Modifying the Services and Termination
           </h1>
           <p>
-            We’re relentlessly improving our Services and creating new ones all
-            the time. That means we may add or remove features, products, or
+            We&apos;re relentlessly improving our Services and creating new ones
+            all the time. That means we may add or remove features, products, or
             functionalities, and we may also suspend or stop the Services
             altogether. We may take any of these actions at any time for any
             reason, and when we do, we may not provide you with any notice
@@ -430,11 +432,11 @@ const TermOfUse = () => {
             and without advanced notice. That means that we may terminate these
             Terms, stop providing you with all or any part of the Services, or
             impose new or additional limits on your ability to use our Services.
-            And while we’ll try to give you reasonable notice beforehand, we
-            can’t guarantee that notice will be possible in all circumstances.
-            For example, we may deactivate your account due to prolonged
-            inactivity, and we may reclaim your username at any time for any
-            reason.
+            And while we&apos;ll try to give you reasonable notice beforehand,
+            we can&apos;t guarantee that notice will be possible in all
+            circumstances. For example, we may deactivate your account due to
+            prolonged inactivity, and we may reclaim your username at any time
+            for any reason.
           </p>
           <br></br>
           <p>
@@ -447,7 +449,7 @@ const TermOfUse = () => {
             hold harmless Foiti, our affiliates, directors, officers,
             stockholders, employees, licensors, and agents from and against any
             and all complaints, charges, claims, damages, losses, costs,
-            liabilities, and expenses (including attorneys’ fees) due to,
+            liabilities, and expenses (including attorneys&apos; fees) due to,
             arising out of, or relating in any way to: (a) your access to or use
             of the Services, or any products or services provided by a third
             party in connection with the Services, even if recommended, made
@@ -463,16 +465,17 @@ const TermOfUse = () => {
           </p>
           <br></br>
           <p>
-            THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” AND TO THE
-            EXTENT PERMITTED BY LAW WITHOUT WARRANTIES OF ANY KIND, EITHER
-            EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED
-            WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-            TITLE, AND NON-INFRINGEMENT. IN ADDITION, WHILE WE ATTEMPT TO
-            PROVIDE A GOOD USER EXPERIENCE, WE DO NOT REPRESENT OR WARRANT THAT:
-            (A) THE SERVICES WILL ALWAYS BE SECURE, ERROR-FREE, OR TIMELY; (B)
-            THE SERVICES WILL ALWAYS FUNCTION WITHOUT DELAYS, DISRUPTIONS, OR
-            IMPERFECTIONS; OR (C) THAT ANY CONTENT, USER CONTENT, OR INFORMATION
-            YOU OBTAIN ON OR THROUGH THE SERVICES WILL BE TIMELY OR ACCURATE.
+            THE SERVICES ARE PROVIDED &quot;AS IS&quot; AND &quot;AS
+            AVAILABLE&quot; AND TO THE EXTENT PERMITTED BY LAW WITHOUT
+            WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT
+            NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+            PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN ADDITION, WHILE
+            WE ATTEMPT TO PROVIDE A GOOD USER EXPERIENCE, WE DO NOT REPRESENT OR
+            WARRANT THAT: (A) THE SERVICES WILL ALWAYS BE SECURE, ERROR-FREE, OR
+            TIMELY; (B) THE SERVICES WILL ALWAYS FUNCTION WITHOUT DELAYS,
+            DISRUPTIONS, OR IMPERFECTIONS; OR (C) THAT ANY CONTENT, USER
+            CONTENT, OR INFORMATION YOU OBTAIN ON OR THROUGH THE SERVICES WILL
+            BE TIMELY OR ACCURATE.
           </p>
           <br></br>
           <p>
@@ -502,7 +505,6 @@ const TermOfUse = () => {
             ACTIVITY GIVING RISE TO THE CLAIM.
           </p>
           <h1 className="font-bold mt-10 mb-4">
-            {" "}
             Governing Law and Dispute Resolution
           </h1>
           <p>

@@ -82,9 +82,9 @@ const PrivacyPolicy = () => {
             When you use our services, we collect information about which of
             those services you’ve used and how you’ve used them. We might know,
             for instance, that you viewed a particular post, tapped on
-            “Directions" and searched for particular place. Here’s a fuller
-            explanation of the types of information we collect when you use our
-            services:
+            &quot;Directions&quot; and searched for particular place. Here’s a
+            fuller explanation of the types of information we collect when you
+            use our services:
           </p>
           <br></br>
           <ul>

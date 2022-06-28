@@ -56,30 +56,30 @@ const PrivacyPolicy = () => {
           </p>
           <br></br>
           <p>
-            Of course, you’ll also provide us whatever information you send
+            Of course, you&apos;ll also provide us whatever information you send
             through our services, such as messages. Keep in mind that the users
             who view your posts, message, and any other content can always save
             that content or copy it outside the app. So, the same common sense
             that applies to the internet at large applies to our services as
-            well: Don’t send messages or share content that you wouldn’t want
-            someone to save or share.
+            well: Don&apos;t send messages or share content that you
+            wouldn&apos;t want someone to save or share.
           </p>
           <br></br>
           <p>
             When you contact customer support or communicate with us in any
-            other way, we’ll collect whatever information you volunteer or that
-            we need to resolve your question.
+            other way, we&apos;ll collect whatever information you volunteer or
+            that we need to resolve your question.
           </p>
           <h1 className="font-bold mt-10 mb-4">
             Information We Get When You Use Our Services
           </h1>
           <p>
             When you use our services, we collect information about which of
-            those services you’ve used and how you’ve used them. We might know,
-            for instance, that you viewed a particular post, tapped on
-            “Directions" and searched for particular place. Here’s a fuller
-            explanation of the types of information we collect when you use our
-            services:
+            those services you&apos;ve used and how you&apos;ve used them. We
+            might know, for instance, that you viewed a particular post, tapped
+            on &quot;Directions&quot; and searched for particular place.
+            Here&apos;s a fuller explanation of the types of information we
+            collect when you use our services:
           </p>
           <br></br>
           <ul>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { Footer } from "../components/Footer";
 import Header from "../components/Header";
 import { COLORS } from "../resources/theme";
@@ -37,27 +38,30 @@ export default function Home() {
           <div className="px-[2rem] absolute w-full top-[4.5rem]">
             <div className="grid grid-cols-3 gap-4">
               <div className="flex justify-center">
-                <img
+                <Image
                   src="/images/banner1.png"
-                  height="350"
-                  width="200"
+                  height="400"
+                  width="300"
                   objectFit="contain"
+                  alt="Foiti app user screenshot"
                 />
               </div>
               <div className="flex justify-center">
-                <img
+                <Image
                   src="/images/banner2.png"
                   height="400"
-                  width="200"
+                  width="300"
                   objectFit="contain"
+                  alt="Foiti app explore screenshot"
                 />
               </div>
               <div className="flex justify-center">
-                <img
+                <Image
                   src="/images/banner3.png"
                   height="400"
-                  width="200"
+                  width="300"
                   objectFit="contain"
+                  alt="Foiti app post screenshot"
                 />
               </div>
             </div>
@@ -95,12 +99,16 @@ export default function Home() {
               }}
               className="w-[40%] h-[80%] absolute right-0 top-[10%] flex flex-col align-middle justify-center border-2"
             >
-              <Image
-                src="/images/play-store-logo.png"
-                height={70}
-                width={200}
-                objectFit="contain"
-              />
+              <Link href="intent://#Intent;scheme=foiti;package=com.foiti.traapp;end">
+                <Image
+                  className="cursor-pointer"
+                  src="/images/play-store-logo.png"
+                  height={70}
+                  width={200}
+                  objectFit="contain"
+                  alt="Get foiti app on google play"
+                />
+              </Link>
               <p className="text-center">Invite Only</p>
             </div>
           </div>

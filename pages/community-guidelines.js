@@ -39,21 +39,21 @@ const CommunityGuidelines = () => {
             <Link href="/terms-of-use">
               <a className="text-blue-600">Terms of Use</a>
             </Link>
-            . We're committed to these guidelines and we hope you are too.
+            . We&apos;re committed to these guidelines and we hope you are too.
             Overstepping these boundaries may result in deleted content,
             disabled accounts or other restrictions.
           </p>
           <h1 className="font-bold mt-10 mb-4">Original Content</h1>
           <ul>
             <li>
-              Share only photos that you've taken or have the authority to
-              share. Remember to post authentic content, and don't post anything
-              you've copied or collected from the Internet that you don't have
-              the right to post.
+              Share only photos that you&apos;ve taken or have the authority to
+              share. Remember to post authentic content, and don&apos;t post
+              anything you&apos;ve copied or collected from the Internet that
+              you don&apos;t have the right to post.
             </li>
             <li>
-              Don’t infringe someone else’s copyright which can be logo, photo,
-              art, text etc.
+              Don&apos;t infringe someone else&apos;s copyright which can be
+              logo, photo, art, text etc.
             </li>
           </ul>
           <br></br>
@@ -78,7 +78,7 @@ const CommunityGuidelines = () => {
               you, you may not contact them from another account.
             </li>
             <li>
-              Sharing another person’s private information, co-ordinates or
+              Sharing another person&apos;s private information, co-ordinates or
               photos of people in private spaces without their knowledge and
               consent is not allowed.
             </li>
@@ -93,14 +93,14 @@ const CommunityGuidelines = () => {
             <li>
               Encouraging violence or dangerous behaviour is prohibited — never
               intimidate or threaten to harm a person, a group of people, or
-              someone’s property.
+              someone&apos;s property.
             </li>
             <li>
               Contents of gratuitous or graphic violence, including animal abuse
               are not allowed.
             </li>
             <li>
-              We don’t allow the glorification of self-harm, including the
+              We don&apos;t allow the glorification of self-harm, including the
               promotion of self-injury, suicide or eating disorders
             </li>
           </ul>
@@ -168,7 +168,7 @@ const CommunityGuidelines = () => {
             account, and/or notify law enforcement. We engage with global law
             enforcement when activity poses a threat to human life. If your
             account is terminated for violating our Terms of Service or these
-            Guidelines, you are not allowed to use Foiti again.{" "}
+            Guidelines, you are not allowed to use Foiti again.
           </p>
           <br></br>
           <p>

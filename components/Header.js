@@ -11,9 +11,13 @@ function Header() {
           style={{ borderColor: COLORS.foitiGrey }}
           className="w-1/3 border-2 flex justify-center py-4 md:h-28 h-18 bg-white absolute bottom-[-2rem] z-10 cursor-pointer"
         >
-          <img
+          <Image
             src="/images/foiti.png"
-            className="object-contain object-center md:w-[8rem] w-[6rem]"
+            className="object-contain object-center"
+            alt="Foiti Logo"
+            height={30}
+            width={120}
+            objectfit="contain"
           />
         </div>
       </Link>
