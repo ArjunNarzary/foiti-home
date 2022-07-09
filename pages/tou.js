@@ -123,7 +123,7 @@ const TermOfUse = () => {
           <p>
             Your privacy matters to us. You can learn how your information is
             handled when you use our Services by reading our
-            <Link href="/privacy-policy">
+            <Link href="/privacy">
               <a className="text-blue-600"> Privacy Policy</a>
             </Link>
             .

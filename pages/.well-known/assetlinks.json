@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.foiti.traapp",
+    "sha256_cert_fingerprints":
+    ["F3:93:B7:31:9E:7E:C2:D9:10:15:33:E2:EB:96:62:47:77:22:A8:68:2D:D0:EE:76:5B:41:A8:EB:23:6D:12:78"]
+  }
+}]
