@@ -3,14 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "../components/Footer";
 import Header from "../components/Header";
+import HomeSlider from "../components/HomeSlider";
 import { COLORS } from "../resources/theme";
+import React from "react";
 
 export default function Home() {
   return (
-    <div
-      style={{ backgroundColor: COLORS.background }}
-      className="md:px-52 px-2"
-    >
+    <div style={{ backgroundColor: COLORS.background }} className="md:px-52">
       <Head>
         <title>Foiti</title>
         <meta
@@ -31,11 +30,14 @@ export default function Home() {
         <div className="w-full relative">
           <div
             style={{ backgroundColor: COLORS.foitiGrey }}
-            className={`w-full h-[23rem]`}
+            className={`w-full md:h-[23rem] h-[32rem]`}
           />
-          <div style={{ content: "" }} className="h-32 bg-white" />
+          <div
+            style={{ content: "" }}
+            className="h-32 bg-white md:block hidden"
+          />
           {/* BANNERS */}
-          <div className="px-[2rem] absolute w-full top-[4.5rem]">
+          <div className="px-[2rem] absolute w-full top-[4.5rem] md:block hidden">
             <div className="grid grid-cols-3 gap-4">
               <div className="flex justify-center">
                 <Image
@@ -66,6 +68,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* BANNER FOR SMALLER SCREEN */}
+          <div className="px-[2rem] absolute w-full top-[4.5rem] md:hidden">
+            <HomeSlider />
+          </div>
         </div>
         {/* BANNER CONTAINER END */}
         <div className="py-16">
@@ -76,10 +83,10 @@ export default function Home() {
             #ExploreWithFoiti
           </h1>
         </div>
-        <div className="flex w-full relative">
+        <div className="md:flex w-full relative">
           <div
             style={{ backgroundColor: COLORS.foiti }}
-            className="w-2/3 p-5 py-10 pr-40 text-white"
+            className="md:w-2/3 w-full p-5 py-10 md:pr-40 text-white block"
           >
             <p className="text-lg">
               When it comes to travelling what we just need is Place, Food &
@@ -91,29 +98,32 @@ export default function Home() {
               places like it’s suppose to be in this digital age.
             </p>
           </div>
-          <div className="w-1/3 h-full">
+          <div className="md:w-1/3 w-full md:h-full block pt-16 md:pt-0">
             <div
               style={{
                 background: COLORS.background,
                 borderColor: COLORS.foitiGrey,
               }}
-              className="w-[40%] h-[80%] absolute right-0 top-[10%] flex flex-col align-middle justify-center border-2"
+              className="md:w-[40%] md:h-[80%] md:absolute md:right-0 md:top-[10%] py-5 md:py-0 flex flex-col align-middle justify-center md:border-2"
             >
-              <Link href="intent://#Intent;scheme=foiti;package=com.foiti.traapp;end">
-                <Image
-                  className="cursor-pointer"
-                  src="/images/play-store-logo.png"
-                  height={70}
-                  width={200}
-                  objectFit="contain"
-                  alt="Get foiti app on google play"
-                />
-              </Link>
+              <div className="text-center">
+                <a href="intent://#Intent;scheme=foiti;package=com.foiti.android;end">
+                  {/* <a href="https://play.google.com/store/apps/details?id=com.foiti.android"> */}
+                  <Image
+                    className="cursor-pointer"
+                    src="/images/play-store-logo.png"
+                    height={70}
+                    width={200}
+                    objectFit="contain"
+                    alt="Get foiti app on google play"
+                  />
+                </a>
+              </div>
               <p className="text-center">Invite Only</p>
             </div>
           </div>
         </div>
-        <div className="py-28">
+        <div className="py-28 px-5">
           <p className="text-center font-bold py-1">
             CONNECT WITH OTHER TRAVELLERS
           </p>

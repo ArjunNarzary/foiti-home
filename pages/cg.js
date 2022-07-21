@@ -23,7 +23,7 @@ const CommunityGuidelines = () => {
         <link rel="icon" href="/images/favicon.png" />
       </Head>
       <main>
-        <div className="py-12 px-6">
+        <div className="pt-5 pb-12 px-5">
           <h1 className="font-bold mt-5 mb-10 text-2xl">
             Community Guidelines
           </h1>

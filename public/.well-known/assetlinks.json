@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.foiti.android",
+      "sha256_cert_fingerprints":
+        ["24:F1:00:84:2B:46:E5:34:7F:1A:CE:72:35:1A:F0:C2:8F:6F:30:E8:0B:A2:8B:1F:79:45:4B:9C:38:A2:48:D7"]
+    }
+  }
+]

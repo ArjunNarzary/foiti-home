@@ -7,10 +7,7 @@ import { COLORS } from "../resources/theme";
 
 const CommunityGuidelines = () => {
   return (
-    <div
-      style={{ backgroundColor: COLORS.background }}
-      className="md:px-40 px-2"
-    >
+    <div style={{ backgroundColor: COLORS.background }} className="md:px-40">
       <Head>
         <title>Foiti - Community Guidelines</title>
         <meta
@@ -26,7 +23,7 @@ const CommunityGuidelines = () => {
       </Head>
       <main>
         <SubPageHeader title="Community Guidelines" />
-        <div className="bg-white p-12">
+        <div className="bg-white md:p-12 p-5">
           <p>
             At Foiti, we contribute to human progress by empowering to change
             the way we travel, explore the world, and have fun together. We

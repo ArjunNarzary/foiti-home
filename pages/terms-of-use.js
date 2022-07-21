@@ -7,10 +7,7 @@ import { COLORS } from "../resources/theme";
 
 const TermOfUse = () => {
   return (
-    <div
-      style={{ backgroundColor: COLORS.background }}
-      className="md:px-40 px-2"
-    >
+    <div style={{ backgroundColor: COLORS.background }} className="md:px-40">
       <Head>
         <title>Foiti - Terms of Use</title>
         <meta
@@ -26,7 +23,7 @@ const TermOfUse = () => {
       </Head>
       <main>
         <SubPageHeader title="Terms of Use" />
-        <div className="bg-white p-12">
+        <div className="bg-white md:p-12 p-5">
           <h1 className="font-bold mt-10 mb-4">Welcome to Foiti!</h1>
           <p>
             These Terms of Use (or &quot;Terms&quot;) govern your use of Foiti

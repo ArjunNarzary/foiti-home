@@ -6,10 +6,7 @@ import { COLORS } from "../resources/theme";
 
 const PrivacyPolicy = () => {
   return (
-    <div
-      style={{ backgroundColor: COLORS.background }}
-      className="md:px-40 px-2"
-    >
+    <div style={{ backgroundColor: COLORS.background }} className="md:px-40">
       <Head>
         <title>Foiti - Privacy Policy</title>
         <meta
@@ -25,7 +22,7 @@ const PrivacyPolicy = () => {
       </Head>
       <main>
         <SubPageHeader title="Privacy Policy" />
-        <div className="bg-white p-12">
+        <div className="bg-white md:p-12 p-5">
           <p>
             When you use Foiti and the Services provided, you’ll share some
             information with us. So, we want to be upfront about the information

@@ -5,7 +5,7 @@ import { COLORS } from "../resources/theme";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col justify-center pb-[4rem]">
+    <div className="flex flex-col justify-center pb-[4rem] px-5 md:px-0">
       <div className="flex justify-center">
         <Link href="/" className="cursor-pointer">
           <Image

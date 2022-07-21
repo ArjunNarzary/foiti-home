@@ -20,7 +20,7 @@ const TermOfUse = () => {
         <link rel="icon" href="/images/favicon.png" />
       </Head>
       <main>
-        <div className="py-12 px-6">
+        <div className="pt-5 pb-12 px-5">
           <h1 className="font-bold mt-10 mb-4">Welcome to Foiti!</h1>
           <p>
             These Terms of Use (or &quot;Terms&quot;) govern your use of Foiti
