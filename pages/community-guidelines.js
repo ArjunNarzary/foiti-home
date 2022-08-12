@@ -7,7 +7,10 @@ import { COLORS } from "../resources/theme";
 
 const CommunityGuidelines = () => {
   return (
-    <div style={{ backgroundColor: COLORS.background }} className="md:px-40">
+    <div
+      style={{ backgroundColor: COLORS.background }}
+      className="md:px-20 lg:px-40"
+    >
       <Head>
         <title>Foiti - Community Guidelines</title>
         <meta

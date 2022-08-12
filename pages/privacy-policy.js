@@ -6,7 +6,10 @@ import { COLORS } from "../resources/theme";
 
 const PrivacyPolicy = () => {
   return (
-    <div style={{ backgroundColor: COLORS.background }} className="md:px-40">
+    <div
+      style={{ backgroundColor: COLORS.background }}
+      className="md:px-20 lg:px-40"
+    >
       <Head>
         <title>Foiti - Privacy Policy</title>
         <meta

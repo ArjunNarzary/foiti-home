@@ -7,7 +7,10 @@ import { COLORS } from "../resources/theme";
 
 const TermOfUse = () => {
   return (
-    <div style={{ backgroundColor: COLORS.background }} className="md:px-40">
+    <div
+      style={{ backgroundColor: COLORS.background }}
+      className="lg:px-40 md:px-20"
+    >
       <Head>
         <title>Foiti - Terms of Use</title>
         <meta

@@ -9,7 +9,10 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: COLORS.background }} className="md:px-52">
+    <div
+      style={{ backgroundColor: COLORS.background }}
+      className="md:px-20 lg:px-52"
+    >
       <Head>
         <title>Foiti</title>
         <meta
