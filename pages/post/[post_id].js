@@ -1,22 +1,43 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import {
+    isAndroid,
+    isIOS,
+    isMobile
+} from "react-device-detect";
 import { getPost } from '../../redux/customApi/api';
 
 const post = ({ post }) => {
+    const router = useRouter();
+    const refA = useRef();
+
+    useEffect(() => {
+        if(isMobile && isAndroid){;
+            const link = document.createElement('a');
+            // link.target = '_blank';
+            // link.rel = 'noopener noreferrer';
+            link.href = `http://play.google.com/store/apps/details?id=com.foiti.android`;
+            link.click();
+        }else{
+            router.push("/")
+        }
+    }, [isMobile]);
+
+
   return (
       <div>
           <Head>
               <title>Foiti</title>
               <meta
                   name="description"
-                  content={`${post.post.caption}`}
+                  content={`${post?.post?.caption}`}
               />
-              <meta property="og:title" content={`${post.post.place.name}`} />
+              <meta property="og:title" content={`${post?.post?.user?.name}'s post on foiti`} />
               <meta
                   property="og:description"
-                  content={`${post.post.caption}`}
+                  content={`${post?.post?.caption}`}
               />
               <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BACKEND_URL}/image/${post?.post?.content[0]?.image?.thumbnail?.private_id}`} />
               <link rel="icon" href="/images/favicon.png" />
@@ -24,8 +45,7 @@ const post = ({ post }) => {
           <main>
             <div>
                   <div className="text-center">
-                      <a href="intent://#Intent;scheme=foiti;package=com.foiti.android;end">
-                          {/* <a href="https://play.google.com/store/apps/details?id=com.foiti.android"> */}
+                      <a ref={refA} href="intent://#Intent;scheme=foiti;package=com.foiti.android;end">
                           <Image
                               className="cursor-pointer"
                               src="/images/play-store-logo.png"

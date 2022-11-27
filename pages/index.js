@@ -122,7 +122,6 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <p className="text-center">Invite Only</p>
             </div>
           </div>
         </div>
