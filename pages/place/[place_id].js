@@ -13,11 +13,6 @@ const Place = ({ place }) => {
     const router = useRouter();
     const [description, setDescription] = useState(place?.place?.short_address);
 
-    useEffect(() => {
-        let typeText = place?.place?.local_address ? (place?.place?.local_address + " • ") : "";
-        let desText = `${typeText} ${place?.place?.short_address}`;
-        setDescription(desText);
-    },[place])
 
     useEffect(() => {
         if (isMobile && isAndroid) {
@@ -25,9 +20,15 @@ const Place = ({ place }) => {
             link.href = `http://play.google.com/store/apps/details?id=com.foiti.android`;
             link.click();
         } else {
-            // router.push("/")
+            router.push("/")
         }
     }, []);
+
+    useEffect(() => {
+        let typeText = place?.place?.local_address ? (place?.place?.local_address + " • ") : "";
+        let desText = `${typeText} ${place?.place?.short_address}`;
+        setDescription(desText);
+    }, [place]);
 
 
     return (
