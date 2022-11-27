@@ -24,7 +24,7 @@ const User = ({ user }) => {
         }
     }, []);
 
-    useState(() => {
+    useEffect(() => {
         let totalContri = user?.user?.total_contribution + (user?.user?.total_contribution > 1 ? " Contributions" : " Contribution");
         let visited = "Visited " + user?.placesVisited + (user?.placesVisited > 1 ? " Places" : " Place");
         let des = `${totalContri} • ${visited}`

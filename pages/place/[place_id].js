@@ -31,7 +31,7 @@ const Place = ({ place }) => {
             link.href = `http://play.google.com/store/apps/details?id=com.foiti.android`;
             link.click();
         } else {
-            router.push("/")
+            // router.push("/")
         }
     }, []);
 
@@ -48,7 +48,7 @@ const Place = ({ place }) => {
                 <meta property="og:title" content={`${place?.place?.display_name || place?.place?.name}`} />
                 <meta
                     property="og:description"
-                    content={`${description}`}
+                    content={`${place?.place?.short_address}`}
                 />
                 <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BACKEND_URL}/image/${place?.place?.cover_photo?.thumbnail?.private_id}`} />
                 <meta property="og:site_name" content="Foiti" />
