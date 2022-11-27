@@ -20,7 +20,7 @@ const Place = ({ place }) => {
             link.href = `http://play.google.com/store/apps/details?id=com.foiti.android`;
             link.click();
         } else {
-            // router.push("/");
+            router.push("/");
         }
     }, []);
 
