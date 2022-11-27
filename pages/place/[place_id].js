@@ -15,7 +15,7 @@ const Place = ({ place }) => {
 
     useEffect(() => {
         let desText = "";
-        let typeText = place?.place?.local_address ? place?.place?.local_address + " • " : "";
+        let typeText = place?.place?.local_address ? (place?.place?.local_address + " • ") : "";
         desText = `${typeText} ${place?.place?.short_address}`;
         setDescription(desText);
     },[place])
@@ -26,7 +26,7 @@ const Place = ({ place }) => {
             link.href = `http://play.google.com/store/apps/details?id=com.foiti.android`;
             link.click();
         } else {
-            // router.push("/")
+            router.push("/")
         }
     }, []);
 
