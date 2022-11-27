@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 import React, { useEffect, useRef, useState } from 'react'
 import {
     isAndroid,
@@ -10,7 +10,7 @@ import {
 import { getPost } from '../../redux/customApi/api';
 
 const post = ({ post }) => {
-    const router = useRouter();
+    // const router = useRouter();
     const refA = useRef();
 
     useEffect(() => {
