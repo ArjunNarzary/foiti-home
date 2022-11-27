@@ -15,6 +15,7 @@ export default function Home() {
     >
       <Head>
         <title>Foiti</title>
+        <link rel="icon" href="/images/favicon.png" />
         <meta
           name="description"
           content="Foiti is a social media app designed to help users find new places and explore the world like never before."
@@ -24,7 +25,8 @@ export default function Home() {
           property="og:description"
           content="Foiti is a social media app designed to help users find new places and explore the world like never before."
         />
-        <link rel="icon" href="/images/favicon.png" />
+        <meta property="og:image" content="/images/foiti-cover.jpg" />
+
       </Head>
 
       <main>

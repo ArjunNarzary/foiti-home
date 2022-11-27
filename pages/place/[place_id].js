@@ -15,13 +15,8 @@ const Place = ({ place }) => {
 
     useEffect(() => {
         let desText = "";
-        if(place?.place?.types.length > 1){
-            let typeArr = place?.place?.types[1].split("_").map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(" ");
-            desText = `${typeArr} • ${place?.place?.short_address}`; 
-        }else{
-            desText = `${place?.place?.short_address}`
-        }
-
+        let typeText = place?.place?.local_address ? place?.place?.local_address + " • " : "";
+        desText = `${typeText} ${place?.place?.short_address}`;
         setDescription(desText);
     },[place])
 
@@ -48,7 +43,7 @@ const Place = ({ place }) => {
                 <meta property="og:title" content={`${place?.place?.display_name || place?.place?.name}`} />
                 <meta
                     property="og:description"
-                    content={`${place?.place?.short_address}`}
+                    content={`${description}`}
                 />
                 <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BACKEND_URL}/image/${place?.place?.cover_photo?.thumbnail?.private_id}`} />
                 <meta property="og:site_name" content="Foiti" />
