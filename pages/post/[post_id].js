@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-// import { useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import React, { useEffect } from 'react'
 import {
     isAndroid,
@@ -10,14 +10,11 @@ import {
 import { getPost } from '../../redux/customApi/api';
 
 const Post = ({ post }) => {
-    // const router = useRouter();
-    // const refA = useRef();
+    const router = useRouter();
 
     useEffect(() => {
-        if(isMobile && isAndroid){;
+        if(isMobile && isAndroid){
             const link = document.createElement('a');
-            // link.target = '_blank';
-            // link.rel = 'noopener noreferrer';
             link.href = `http://play.google.com/store/apps/details?id=com.foiti.android`;
             link.click();
         }else{
@@ -30,17 +27,18 @@ const Post = ({ post }) => {
       <div>
           <Head>
               <title>Foiti</title>
+              <link rel="icon" href="/images/favicon.png" />
               <meta
                   name="description"
                   content={`${post?.post?.caption}`}
               />
-              <meta property="og:title" content={`${post?.post?.user?.name}'s post on foiti`} />
+              <meta property="og:title" content={`${post?.post?.user?.name}'s post on Foiti`} />
               <meta
                   property="og:description"
                   content={`${post?.post?.caption}`}
               />
               <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BACKEND_URL}/image/${post?.post?.content[0]?.image?.thumbnail?.private_id}`} />
-              <link rel="icon" href="/images/favicon.png" />
+              <meta property="og:site_name" content="Foiti" />
           </Head>
           <main>
             <div>
