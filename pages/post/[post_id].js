@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 // import { useRouter } from 'next/router';
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect } from 'react'
 import {
     isAndroid,
     isIOS,
@@ -9,9 +9,9 @@ import {
 } from "react-device-detect";
 import { getPost } from '../../redux/customApi/api';
 
-const post = ({ post }) => {
+const Post = ({ post }) => {
     // const router = useRouter();
-    const refA = useRef();
+    // const refA = useRef();
 
     useEffect(() => {
         if(isMobile && isAndroid){;
@@ -23,7 +23,7 @@ const post = ({ post }) => {
         }else{
             router.push("/")
         }
-    }, [isMobile]);
+    }, []);
 
 
   return (
@@ -45,7 +45,7 @@ const post = ({ post }) => {
           <main>
             <div>
                   <div className="text-center">
-                      <a ref={refA} href="intent://#Intent;scheme=foiti;package=com.foiti.android;end">
+                      <a href="intent://#Intent;scheme=foiti;package=com.foiti.android;end">
                           <Image
                               className="cursor-pointer"
                               src="/images/play-store-logo.png"
@@ -62,7 +62,7 @@ const post = ({ post }) => {
   )
 }
 
-export default post
+export default Post
 
 export async function getServerSideProps(context){
     const post_id = context.params.post_id;
