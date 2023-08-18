@@ -427,9 +427,7 @@ const PrivacyPolicy = () => {
               that, certain services may lose full functionality.
             </li>
             <li>
-              <span className="font-bold">Deletion.</span> While we hope you’ll
-              remain a lifelong Foiti user, if for some reason you ever want to
-              delete your account, you can delete it right from the app.
+              <span className="font-bold">Personal Data Deletion.</span> While we hope you’ll remain a lifelong Foiti user, if for some reason you ever want to delete your account and personal data, you can delete it right from the app. When you request to delete, the deletion process will automatically begin. It may take up to 90 days to delete your personal information, contents, and account after the deletion process begins. While the deletion process is being undertaken, your account or personal data will no longer be visible to other users.
             </li>
             <li>
               <span className="font-bold">Communicating with other users.</span>{" "}
